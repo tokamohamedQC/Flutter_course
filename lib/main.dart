@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_udemy_course/Counter.dart';
 import 'package:flutter_udemy_course/HomeScreen.dart';
 import 'package:flutter_udemy_course/Users.dart';
 import 'package:flutter_udemy_course/login_screen.dart';
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: users_screen(),
+      home: CounterScreen(),
     );
   }
 
